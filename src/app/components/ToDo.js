@@ -20,9 +20,6 @@ export const ToDo = () => {
   const [todos, Settodos] = useState([]);
   const [selectedBtn, setSelectedBtn] = useState("All");
 
-  console.log(value);
-  console.log(todos);
-
   return (
     <div className="w-screen h-screen flex justify-center py-10">
       <Card className="w-[377px] h-fit bg-[rgba(255,255,255,1)] flex flex-col items-center gap-[40px]">
